@@ -2,6 +2,7 @@ import Head from "next/head";
 import Header from "./../components/Header";
 import SubHeader from "./../components/SubHeader.js";
 import TextInputbar from "./../components/TextInputbar.js";
+import Chart from "./../components/Chart.js";
 import styled from "styled-components";
 
 const WarrenBuffettImage = styled.img`
@@ -36,6 +37,10 @@ export default function Home() {
       <div>
         <TextInputbar />
       </div>
+
+      <TitleWrapper>
+        <Chart />
+      </TitleWrapper>
 
       <style jsx>
         {`
