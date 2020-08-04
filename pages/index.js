@@ -23,13 +23,13 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>I will be a Buffett</title>
+        <title>I will be a Warren Buffett</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <TitleWrapper>
         <WarrenBuffettImage src="/warren-buffett.jpg" alt="warren buffett" />
-        <Header>💵 I will be a Buffet 💵</Header>
+        <Header>💵 I will be a Warren Buffet 💵</Header>
         <SubHeader>@plantstoen</SubHeader>
       </TitleWrapper>
 
